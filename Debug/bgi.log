@@ -1,0 +1,34 @@
+﻿Построение начато 09.07.2014 17:27:54.
+     1>Проект "C:\Users\Shaukat\Desktop\bgi_al - копия\bgi.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Исходный код.cpp"
+         Исходный код.cpp
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): см. объявление "fopen"
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(28): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237): см. объявление "fscanf"
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237): см. объявление "fscanf"
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(42): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237): см. объявление "fscanf"
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(98): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\shaukat\desktop\bgi_al - копия\исходный код.cpp(102): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shaukat\Desktop\bgi_al - копия\Debug\bgi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Shaukat\Desktop\bgi_al - копия\Debug\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shaukat\Desktop\bgi_al - копия\Debug\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\main.obj
+         Debug\text.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         "Debug\Исходный код.obj"
+         bgi.vcxproj -> C:\Users\Shaukat\Desktop\bgi_al - копия\Debug\bgi.exe
+     1>Построение проекта "C:\Users\Shaukat\Desktop\bgi_al - копия\bgi.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.29
